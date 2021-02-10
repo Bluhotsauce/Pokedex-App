@@ -12,7 +12,7 @@ const leftButton = document.querySelector('.left-button');
 const rightButton = document.querySelector('.right-button');
 
 
-// constants and variables
+
 const TYPES = [
   'normal', 'fighting', 'flying',
   'poison', 'ground', 'rock',
@@ -26,6 +26,11 @@ let nextUrl = null;
 
 
 // Functions
+//function myfunction() {
+    //let celcius = (document.getElementById('value').value - 32) * 5/9;
+    //document.getElementById('celciusformula').innerHTML = celcius;
+//}
+
 const capitalize = (str) => str[0].toUpperCase() + str.substr(1);
 
 const resetScreen = () => {
